@@ -1,0 +1,35 @@
+{
+  "name": "trocapp",
+  "version": "1.0.0",
+  "description": "Um app para troca e doações",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src -c .eslintrc.json --format html -o coverage/eslint.html",
+    "eslint:dev": "eslint src -c .eslintrc.json",
+    "test": "jest --config ./jest.config.js --watch --coverage --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belemzeiros/trocapp.git"
+  },
+  "author": "Belemzeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belemzeiros/trocapp/issues"
+  },
+  "homepage": "https://github.com/belemzeiros/trocapp#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "react": "^16.4.2"
+  }
+}
