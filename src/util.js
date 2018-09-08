@@ -6,7 +6,7 @@ function naogostei() {
 }
 
 // função anônima void
-const gostei = function () {
+const gostei = () => {
   likes.push(1);
 };
 
