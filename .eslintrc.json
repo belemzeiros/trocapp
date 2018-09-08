@@ -1,0 +1,21 @@
+{
+    "extends": ["standard", "airbnb-base"],
+    "parserOptions": {
+      "ecmaVersion": 9
+    },
+    "rules": {
+      "function-paren-newline": ["error", { "minItems": 3 }],
+      "import/extensions": 0,
+      "import/newline-after-import": 0,
+      "import/no-dynamic-require": 0,
+      "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": 0,
+      "no-return-assign": 0,
+      "no-underscore-dangle": 0
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "jest": true
+    }
+  }
