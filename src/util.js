@@ -6,11 +6,11 @@ function naogostei() {
 }
 
 // função anônima void
-const gostei = function () {
+const gostei = () => {
   likes.push(1);
 };
 
-exports.usuario = {
+const usuario = {
   nome: 'Janderson',
   idade: 28,
   endereco: {
@@ -24,3 +24,24 @@ exports.usuario = {
     return likes.length;
   },
 };
+
+const getNome = () => usuario.nome;
+
+const getIdade = () => usuario.idade;
+
+module.exports = {
+  likes,
+  naogostei,
+  gostei,
+  usuario,
+  getNome,
+  getIdade,
+};
+
+// Precisa do babel configurado
+// export default {
+//   likes,
+//   naogostei,
+//   gostei,
+//   usuario,
+// };

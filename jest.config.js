@@ -2,7 +2,7 @@ module.exports = {
   verbose: false,
   collectCoverage: true,
   collectCoverageFrom: [
-    'app/**/*.{js}',
+    'src/**/*.{js}',
     '!**/tmp/**',
     '!**/coverage/**',
     '!**/node_modules/**',
