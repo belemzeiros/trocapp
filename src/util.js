@@ -25,11 +25,21 @@ const usuario = {
   },
 };
 
+const getNome = () => {
+  return usuario.nome;
+};
+
+const getIdade = () => {
+  return usuario.idade;
+};
+
 module.exports = {
   likes,
   naogostei,
   gostei,
   usuario,
+  getNome,
+  getIdade,
 };
 
 // Precisa do babel configurado
