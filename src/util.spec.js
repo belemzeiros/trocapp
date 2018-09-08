@@ -1,7 +1,7 @@
 const util = require('./util');
 // O import from precisa do babel configurado
 // import util from './util';
-const { usuario, gostei, getIdade } = util;
+const { usuario, gostei, getIdade, getNome} = util;
 const { likes } = usuario;
 
 describe('Util', () => {
@@ -14,5 +14,9 @@ describe('Util', () => {
   test('Deveria informar a idade correta', () => {
     const resultado = getIdade();
     expect(resultado).toBe(28);
+  });
+  test('Deve exibir o nome', () => {
+    const nome = getNome();
+    expect(nome).toBe('Charles');
   });
 });

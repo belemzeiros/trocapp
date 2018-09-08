@@ -11,7 +11,7 @@ const gostei = function () {
 };
 
 const usuario = {
-  nome: 'Janderson',
+  nome: 'Charles',
   idade: 28,
   endereco: {
     logradouro: 'Avenida Industrial',
@@ -25,13 +25,9 @@ const usuario = {
   },
 };
 
-const getNome = () => {
-  return usuario.nome;
-};
+const getNome = () => usuario.nome;
 
-const getIdade = () => {
-  return usuario.idade;
-};
+const getIdade = () => usuario.idade;
 
 module.exports = {
   likes,
