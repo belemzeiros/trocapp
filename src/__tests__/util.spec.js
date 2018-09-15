@@ -1,9 +1,8 @@
-const util = require('./util');
+// const util = require('../util');
 // O import from precisa do babel configurado
-// import util from './util';
-const {
+import {
   usuario, gostei, getIdade, getNome, naogostei,
-} = util;
+} from '../util';
 const { likes } = usuario;
 
 describe('Util', () => {

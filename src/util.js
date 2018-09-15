@@ -1,16 +1,16 @@
-const likes = [];
+export const likes = [];
 
 // Função nominal void
-function naogostei() {
+export function naogostei() {
   likes.pop();
 }
 
 // função anônima void
-const gostei = () => {
+export const gostei = () => {
   likes.push(1);
 };
 
-const usuario = {
+export const usuario = {
   nome: 'Charles',
   idade: 28,
   endereco: {
@@ -25,11 +25,21 @@ const usuario = {
   },
 };
 
-const getNome = () => usuario.nome;
+export const getNome = () => usuario.nome;
 
-const getIdade = () => usuario.idade;
+export const getIdade = () => usuario.idade;
 
-module.exports = {
+// module.exports = {
+//   likes,
+//   naogostei,
+//   gostei,
+//   usuario,
+//   getNome,
+//   getIdade,
+// };
+
+// Precisa do babel configurado
+export default {
   likes,
   naogostei,
   gostei,
@@ -37,11 +47,3 @@ module.exports = {
   getNome,
   getIdade,
 };
-
-// Precisa do babel configurado
-// export default {
-//   likes,
-//   naogostei,
-//   gostei,
-//   usuario,
-// };
