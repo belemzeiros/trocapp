@@ -1,5 +1,5 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -8,6 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.bundle.js',
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Trocapp',
+      template: './src/index.html',
+    }),
+  ],
   module: {
     rules: [
       {
