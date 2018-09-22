@@ -4,13 +4,17 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><%= htmlWebpackPlugin.options.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
   <h1>Trocapp</h1>
   <p>Hello World!</p>
-  <button onclick="getUsuario()">Mostrar Usuário</button>
+  <button class="waves-effect waves-light btn" onclick="getUsuario()">
+    <i class="material-icons left">perm_contact_calendar</i> Mostrar Usuário
+  </button>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

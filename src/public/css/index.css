@@ -1,0 +1,12 @@
+/* <body> */
+body {
+  background-color: #999;
+}
+/* <element class=".body"> */
+.body {
+  background-color: #999;
+}
+/* <element id="body"> */
+#body {
+  background-color: #999;
+}
