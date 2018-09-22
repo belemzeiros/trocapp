@@ -8,7 +8,8 @@
     "build": "webpack",
     "eslint": "eslint src -c .eslintrc.json --format html -o coverage/eslint.html",
     "eslint:dev": "eslint src -c .eslintrc.json",
-    "test": "jest --config ./jest.config.js --watch --coverage --no-cache"
+    "test": "jest --config ./jest.config.js --forceExit --coverage --no-cache --detectOpenHandles",
+    "test:dev": "jest --config ./jest.config.js --watch --coverage --no-cache"
   },
   "repository": {
     "type": "git",
