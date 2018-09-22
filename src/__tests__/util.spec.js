@@ -1,7 +1,7 @@
 // const util = require('../util');
 // O import from precisa do babel configurado
 import {
-  usuario, gostei, getIdade, getNome, naogostei,
+  usuario, gostei, getIdade, getNome, naogostei, getEndereco,
 } from '../util';
 const { likes } = usuario;
 
@@ -25,5 +25,20 @@ describe('Util', () => {
   test('Deve exibir o nome', () => {
     const nome = getNome();
     expect(nome).toBe('Charles');
+  });
+  test('Deve exibir o endereço do usuário', () => {
+    const endereco = getEndereco();
+    expect(endereco).toMatchObject({});
+    expect(endereco).toStrictEqual({
+      logradouro: 'Avenida Industrial',
+      numero: 1580,
+      complemento: 'AP 17 Torre C',
+    });
+  });
+  test('Deve possuir os atributos obrigatorios', () => {
+    const endereco = getEndereco();
+    expect(endereco).toHaveProperty('logradouro');
+    expect(endereco).toHaveProperty('numero');
+    expect(endereco).toHaveProperty('complemento');
   });
 });
