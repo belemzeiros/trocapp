@@ -12,6 +12,6 @@ describe('GetUsuario', () => {
     console.log = jest.fn();
     expect(console.log).not.toBeCalled();
     getUsuario();
-    expect(console.log).toHaveBeenCalledWith('Nome: Fulano \nIdade: 28');
+    expect(console.log).toHaveBeenCalledWith('Nome: Fulano \nIdade: 28 \nEndereco: Avenida Industrial 1580 AP 17 Torre C');
   });
 });

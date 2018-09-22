@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Trocapp',
-      template: './src/index.html',
+      template: './src/public/index.html',
     }),
   ],
   module: {

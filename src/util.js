@@ -29,6 +29,8 @@ export const getNome = () => usuario.nome;
 
 export const getIdade = () => usuario.idade;
 
+export const getEndereco = () => usuario.endereco;
+
 // module.exports = {
 //   likes,
 //   naogostei,
@@ -46,4 +48,5 @@ export default {
   usuario,
   getNome,
   getIdade,
+  getEndereco,
 };

@@ -1,7 +1,8 @@
-import { getNome, getIdade } from './util';
+import { getNome, getIdade, getEndereco } from './util';
 
 export const getUsuario = () => {
-  console.log(`Nome: ${getNome()} \nIdade: ${getIdade()}`);
+  const endereco = getEndereco();
+  console.log(`Nome: ${getNome()} \nIdade: ${getIdade()} \nEndereco: ${endereco.logradouro} ${endereco.numero} ${endereco.complemento}`);
 };
 
 window.getUsuario = getUsuario;
