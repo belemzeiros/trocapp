@@ -42,4 +42,5 @@ http://cssinjs.org/?v=v9.0.0
 Plugin para mover o CSS: https://www.npmjs.com/package/copy-webpack-plugin
 CSS Chunks: https://www.npmjs.com/package/extract-css-chunks-webpack-plugin
 Material Design sem React: https://materializecss.com
+
 SASS: https://sass-lang.com/guide
