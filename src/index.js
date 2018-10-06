@@ -1,8 +1,10 @@
 import { getNome, getIdade, getEndereco } from './util';
 
 export const getUsuario = () => {
-  const endereco = getEndereco();
-  console.log(`Nome: ${getNome()} \nIdade: ${getIdade()} \nEndereco: ${endereco.logradouro} ${endereco.numero} ${endereco.complemento}`);
+  const node = document.createElement('li');
+  const textnode = document.createTextNode('Fulano, 28, Avenida Industrial 1580 AP 17 Torre C');
+  node.appendChild(textnode);
+  document.getElementById('mylist').appendChild(node);
 };
 
 window.getUsuario = getUsuario;
