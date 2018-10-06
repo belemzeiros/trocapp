@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -48,4 +47,9 @@ module.exports = {
     colors: true,
   },
   devtool: 'source-map',
+  devServer: {
+    inline: true,
+    contentBase: './build',
+    port: 9000,
+  },
 };

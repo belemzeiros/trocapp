@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server ./build -p 9000",
-    "build": "webpack",
+    "start:dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
     "eslint": "eslint src -c .eslintrc.json --format html -o coverage/eslint.html",
     "eslint:dev": "eslint src -c .eslintrc.json",
     "test": "jest --config ./jest.config.js --forceExit --coverage --no-cache --detectOpenHandles",
@@ -28,6 +29,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.2",
+    "babel-preset-react": "^6.24.1",
     "copy-webpack-plugin": "^4.5.2",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -41,12 +43,14 @@
     "jest": "^23.6.0",
     "regenerator-runtime": "^0.12.1",
     "webpack": "^4.17.2",
-    "webpack-command": "^0.4.1"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "@types/html-webpack-plugin": "^3.2.0",
     "materialize-css": "^1.0.0-rc.2",
-    "react": "^16.4.2"
+    "react": "^16.4.2",
+    "react-dom": "^16.5.2"
   },
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
