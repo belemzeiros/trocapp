@@ -39,3 +39,4 @@ yarn test
 
 - [Jest](https://github.com/facebook/jest) para testes unitários unit tests
 - [ESLint](https://eslint.org/) para boas práticas de desenvolvimento baseado no [guia de estilo](https://github.com/airbnb/javascript) do AirBnB para JavaScript
+- [ES6 Class](https://translate.google.com/translate?sl=en&tl=pt&u=https%3A//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) Classes em JavaScript
