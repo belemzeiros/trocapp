@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebsiteLayout WebsiteLayout will mount correctly 1`] = `
+<React.Fragment>
+  <mockConstructor />
+</React.Fragment>
+`;

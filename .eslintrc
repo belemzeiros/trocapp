@@ -1,0 +1,62 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:css-modules/recommended",
+    "prettier/react",
+    "plugin:jest/recommended"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.client.js"
+      }
+    }
+  },
+  "plugins": [
+    "react",
+    "css-modules",
+    "import",
+    "prettier",
+    "jest"
+  ],
+  "rules": {
+    "no-console": "off",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "object-curly-newline": "off",
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "no-confusing-arrow": "off",
+    "global-require": "off",
+    "function-paren-newline": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "import/no-extraneous-dependencies": "off",
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {"array": false, "object": true},
+        "AssignmentExpression": {"array": false, "object": false}
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "prettier/prettier": "error"
+  }
+}

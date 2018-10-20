@@ -16,24 +16,24 @@ Você precisará das seguintes coisas corretamente instaladas no seu computador.
 - Entrar no repositório: `cd trocapp`
 - Instalar as dependências do projeto: `yarn install`
 
-## Compilar a aplicação
+## Compilar a aplicação para produção
 
 - `yarn build` compila a aplicação com webpack e babel, bem como executa outras tarefas de diversos plugins
+- `yarn start` inicia a aplicação na porta 3001
 
-## Iniciar a aplicação
+## Iniciar a aplicação para desenvolvimento
 
-- `yarn start` inicia a aplicação na porta 9000
+- `yarn start:dev` builda e inicia a aplicação na porta 3000
 
 ## Testes
-yarn test
 
 - `yarn test` Executa e exporta a cobertura de testes com Jest para ambiente de produção
 - `yarn test:dev` Executa os testes com Jest e observa alterações para ambiente de desenvolvimento
 
 ## Boas práticas
 
-- `yarn eslint` Executa e exporta a cobertura de boas práticas com ESLint para ambiente de produção
-- `yarn eslint:dev` Executa, exporta a cobertura e observa alterações com ESLint para ambiente de desenvolvimento. Com o parâmetro `--fix` o ESLint tentará corrigir os erros automaticamente.
+- `yarn eslint:ci` Executa e exporta a cobertura de boas práticas com ESLint para ambiente de produção
+- `yarn eslint:dev` Executa, exporta a cobertura e observa alterações com ESLint para ambiente de desenvolvimento. O ESLint tentará corrigir os erros automaticamente.
 
 ## Leitura adicional
 

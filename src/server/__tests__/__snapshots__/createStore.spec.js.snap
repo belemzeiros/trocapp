@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createStore should call redux's createStore 1`] = `
+Object {
+  "dispatch": [Function],
+  "getState": [Function],
+  "replaceReducer": [Function],
+  "saga": Object {
+    "@@redux-saga/TASK": true,
+    "cancel": [Function],
+    "cont": undefined,
+    "done": Promise {},
+    "error": [Function],
+    "id": 1,
+    "isAborted": [Function],
+    "isCancelled": [Function],
+    "isRunning": [Function],
+    "joiners": null,
+    "name": "rootSaga",
+    "result": [Function],
+    "setContext": [Function],
+  },
+  "subscribe": [Function],
+  Symbol(Symbol.observable): [Function],
+}
+`;
