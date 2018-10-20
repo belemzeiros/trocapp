@@ -9,9 +9,11 @@ class Automovel extends Component {
     };
   }
 
-  if(ligaMotor) {
+  ligaMotor() {
+   if(ligaMotor) {
     this.ligarMotor(chave, segredo);
   }
+}
 
   render() {
     const {
