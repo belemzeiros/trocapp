@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <h1>Trocapp</h1>
+  <p>Hello World!</p>
+  <button class="waves-effect waves-light btn" onclick="automovel.criarCarro()">
+    <i class="material-icons left">perm_contact_calendar</i> Criar Carro
+  </button>
+  <button class="waves-effect waves-light btn" onclick="automovel.ligarCarro()">
+    <i class="material-icons left">perm_contact_calendar</i> Ligar Carro
+  </button>
+  <ul id="mylist">
+    <li></li>
+  </ul>
+  <ul id="motorLigado">
+
+  </ul>
+
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
