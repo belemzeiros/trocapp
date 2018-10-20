@@ -1,42 +1,22 @@
-import Automovel from './componentes/Automovel';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Automovel from './Automovel';
+import './style.css';
 
-export const criarCarro = (automovel) => {
-  const marca = document.createElement('li');
-  const textnode = document.createTextNode(`Marcas: ${automovel.verModelo()} e ${automovel.verModelo()}`);
-  marca.appendChild(textnode);
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'React'
+    };
+  }
 
-  document.getElementById('mylist').appendChild(marca);
-};
+  render() {
+    const chave = {segredo: 'v2'};
+    return (
+     <Automovel marca="Fiat" modelo="Uno" chave={chave} />
+    );
+  }
+}
 
-export const imprirDados = (automovel) => {
-  const textAutoLigado = `${automovel.verModelo()} está ligado? ${(automovel.estaLigado() ? 'Sim' : 'Não')}`;
-
-  const elementoLi = document.createElement('li');
-  const texto = document.createTextNode(textAutoLigado);
-  elementoLi.appendChild(texto);
-  document.getElementById('motorLigado').appendChild(elementoLi);
-};
-
-export const ligarCarro = (automovel, chave) => {
-  automovel.ligarMotor(chave);
-};
-
-const modelos = ['Uno', 'HB20', 'Gol', 'Lifan', 'Civic'];
-
-modelos.forEach((modelo, indice) => {
-  const automovel = new Automovel(modelo, 'v2');
-  automovel.ligarMotor({
-    segredo: `v${indice}`,
-  });
-  imprirDados(automovel);
-});
-
-window.automovel = {
-  criarCarro,
-  ligarCarro,
-};
-
-export default {
-  criarCarro,
-  ligarCarro,
-};
+render(<App />, document.getElementById('root'));

@@ -1,22 +1,34 @@
-class Automovel {
-  constructor(modelo, segredo) {
-    this.modelo = modelo;
-    this.protecaoChave = segredo;
-    this.ignicao = false;
+import React, { Component } from 'react';
+
+class Automovel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ignicao: true,
+      segredo: 'v2',
+    };
   }
 
-  verModelo() {
-    return this.modelo;
+  ligaMotor() {
+   if(ligaMotor) {
+    this.ligarMotor(chave, segredo);
   }
+}
 
-  ligarMotor(chave) {
-    if (chave && chave.segredo === this.protecaoChave) {
-      this.ignicao = true;
-    }
-  }
+  render() {
+    const {
+      marca, modelo, chave, ligaMotor,
+    } = this.props;
 
-  estaLigado() {
-    return this.ignicao;
+    const { ignicao, segredo } = this.state;
+
+    return (
+      <div>
+          <div>Marca: {marca}</div>
+          <div>Modelo: {modelo}</div>
+          <div>Está ligado? {ignicao ? 'sim' : 'não'}</div>
+      </div>
+    );
   }
 }
 
