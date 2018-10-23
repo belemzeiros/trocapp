@@ -24,6 +24,7 @@ Você precisará das seguintes coisas corretamente instaladas no seu computador.
 ## Iniciar a aplicação para desenvolvimento
 
 - `yarn start:dev` builda e inicia a aplicação na porta 3000
+- Para windows `rmdir ./tmp -r;mkdir ./tmp/dev-server;SET "NODE_ENV=development";SET "PATH_CONTEXT=/";node index.js`
 
 ## Testes
 
