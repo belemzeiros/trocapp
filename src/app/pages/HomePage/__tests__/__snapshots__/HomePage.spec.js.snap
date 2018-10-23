@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage HomePage with props will mount correctly 1`] = `
+<div
+  className="MuiGrid-container-5 HomePageComponent-root-1"
+>
+  <div
+    className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-md-6-67 HomePageComponent-box-2"
+  >
+    <div>
+      Página Inicial Trocapp
+    </div>
+  </div>
+  <div
+    className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-md-6-67 HomePageComponent-box-2 HomePageComponent-hidden-4"
+  />
+</div>
+`;

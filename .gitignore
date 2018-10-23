@@ -1,7 +1,22 @@
-node_modules
-coverage
-package-lock.json
+# Compiled Output
 build
+tmp
+
+# Dependencies
+node_modules/
+
+# Test
+coverage
+.scannerwork
+.sonarlint
+
+# Logs
 *.log
-.vscode*
-.sonarlint*
+
+# Editors
+.vscode
+
+# Misc
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN
