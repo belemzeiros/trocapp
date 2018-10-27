@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
+import CardPage from './CardPage';
 
 const styles = theme => ({
   root: {
@@ -38,15 +39,19 @@ class HomePageComponent extends React.Component {
       <React.Fragment>
         <Helmet />
         <Grid container className={classes.root}>
-          <Grid item xs={12} md={6} className={classes.box}>
+          <Grid item xs={12} md={12} className={classes.box}>
             <div>Página Inicial Trocapp</div>
+            <CardPage
+              image="sofa.jpg"
+              title="Sofá Retrátil"
+              description="Lorem Ipsum lorem lorem"
+            />
+            <CardPage
+              image="sofa.jpg"
+              title="Sofá"
+              description="Lorem Ipsum lorem lorem"
+            />
           </Grid>
-          <Grid
-            item
-            md={6}
-            xs={12}
-            className={`${classes.box} ${classes.hidden}`}
-          />
         </Grid>
       </React.Fragment>
     );
