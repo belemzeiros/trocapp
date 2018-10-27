@@ -3,27 +3,18 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="user-scalable=0, initial-scale=1, minimum-scale=1, maximum-scale=1, width=device-width, height=device-height">
-  <meta name="theme-color" content="#FBE21D"/>
-  <meta name="google-site-verification" content="n72WDYk5P2qbrc3f9r0KmQfuvmOWmixNbvxmh72mGDU"/>
+  <meta name="theme-color" content="#FFFFFF"/>
   <link rel="manifest" href="<%=htmlWebpackPlugin.options.url_context%>/static/manifest.json"/>
   <link rel="shortcut icon" href="<%=htmlWebpackPlugin.options.url_context%>/static/favicon.ico"/>
   <%=htmlWebpackPlugin.options.helmet_title%>
   <%=htmlWebpackPlugin.options.helmet_meta%>
   <%=htmlWebpackPlugin.options.helmet_link%>
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" as="style"/>
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" as="style"/>
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" as="style"/>
   <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:300,400,700"/>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
   <%=htmlWebpackPlugin.options.jss_styles%>
   <%=htmlWebpackPlugin.options.loadable_preload%>
-  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-5SJ9PSS');</script>
 </head>
 <body>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-GTM-5SJ9PSS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div id="root"><%=htmlWebpackPlugin.options.content%></div>
   <%=htmlWebpackPlugin.options.initial_state%>
 </body>
