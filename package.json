@@ -9,6 +9,7 @@
     "stop": "pm2 stop all",
     "start": "pm2 start ecosystem.config.js -i max --attach --env production",
     "start:dev": "mkdirp ./tmp/dev-server && NODE_ENV=development PATH_CONTEXT=/ node index.js",
+    "start:win": "mkdirp ./tmp/dev-server && node index.js",
     "test": "jest --forceExit --coverage --no-cache --detectOpenHandles",
     "test:dev": "jest --watch --coverage --detectOpenHandles",
     "coverage": "yarn test && google-chrome ./coverage/lcov-report/index.html",
