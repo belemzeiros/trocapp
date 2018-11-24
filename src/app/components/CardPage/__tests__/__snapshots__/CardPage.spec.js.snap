@@ -1,0 +1,920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
+<WithStyles(CardPageComponent)
+  description="mock"
+  image="teste.png"
+  title="teste"
+>
+  <CardPageComponent
+    classes={
+      Object {
+        "card": "CardPageComponent-card-2",
+        "control": "CardPageComponent-control-4",
+        "media": "CardPageComponent-media-3",
+        "root": "CardPageComponent-root-1",
+        "title": "CardPageComponent-title-5",
+      }
+    }
+    description="mock"
+    image="teste.png"
+    title="teste"
+  >
+    <WithStyles(Card)
+      className="CardPageComponent-card-2"
+    >
+      <Card
+        className="CardPageComponent-card-2"
+        classes={
+          Object {
+            "root": "MuiCard-root-6",
+          }
+        }
+        raised={false}
+      >
+        <WithStyles(Paper)
+          className="MuiCard-root-6 CardPageComponent-card-2"
+          elevation={1}
+        >
+          <Paper
+            className="MuiCard-root-6 CardPageComponent-card-2"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0-9",
+                "elevation1": "MuiPaper-elevation1-10",
+                "elevation10": "MuiPaper-elevation10-19",
+                "elevation11": "MuiPaper-elevation11-20",
+                "elevation12": "MuiPaper-elevation12-21",
+                "elevation13": "MuiPaper-elevation13-22",
+                "elevation14": "MuiPaper-elevation14-23",
+                "elevation15": "MuiPaper-elevation15-24",
+                "elevation16": "MuiPaper-elevation16-25",
+                "elevation17": "MuiPaper-elevation17-26",
+                "elevation18": "MuiPaper-elevation18-27",
+                "elevation19": "MuiPaper-elevation19-28",
+                "elevation2": "MuiPaper-elevation2-11",
+                "elevation20": "MuiPaper-elevation20-29",
+                "elevation21": "MuiPaper-elevation21-30",
+                "elevation22": "MuiPaper-elevation22-31",
+                "elevation23": "MuiPaper-elevation23-32",
+                "elevation24": "MuiPaper-elevation24-33",
+                "elevation3": "MuiPaper-elevation3-12",
+                "elevation4": "MuiPaper-elevation4-13",
+                "elevation5": "MuiPaper-elevation5-14",
+                "elevation6": "MuiPaper-elevation6-15",
+                "elevation7": "MuiPaper-elevation7-16",
+                "elevation8": "MuiPaper-elevation8-17",
+                "elevation9": "MuiPaper-elevation9-18",
+                "root": "MuiPaper-root-7",
+                "rounded": "MuiPaper-rounded-8",
+              }
+            }
+            component="div"
+            elevation={1}
+            square={false}
+          >
+            <div
+              className="MuiPaper-root-7 MuiPaper-elevation1-10 MuiPaper-rounded-8 MuiCard-root-6 CardPageComponent-card-2"
+            >
+              <WithStyles(Grid)
+                className="CardPageComponent-root-1"
+                container={true}
+              >
+                <Grid
+                  alignContent="stretch"
+                  alignItems="stretch"
+                  className="CardPageComponent-root-1"
+                  classes={
+                    Object {
+                      "align-content-xs-center": "MuiGrid-align-content-xs-center-46",
+                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-48",
+                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-47",
+                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-50",
+                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-49",
+                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-45",
+                      "align-items-xs-center": "MuiGrid-align-items-xs-center-42",
+                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-44",
+                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-43",
+                      "container": "MuiGrid-container-34",
+                      "direction-xs-column": "MuiGrid-direction-xs-column-37",
+                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-38",
+                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-39",
+                      "grid-lg-1": "MuiGrid-grid-lg-1-105",
+                      "grid-lg-10": "MuiGrid-grid-lg-10-114",
+                      "grid-lg-11": "MuiGrid-grid-lg-11-115",
+                      "grid-lg-12": "MuiGrid-grid-lg-12-116",
+                      "grid-lg-2": "MuiGrid-grid-lg-2-106",
+                      "grid-lg-3": "MuiGrid-grid-lg-3-107",
+                      "grid-lg-4": "MuiGrid-grid-lg-4-108",
+                      "grid-lg-5": "MuiGrid-grid-lg-5-109",
+                      "grid-lg-6": "MuiGrid-grid-lg-6-110",
+                      "grid-lg-7": "MuiGrid-grid-lg-7-111",
+                      "grid-lg-8": "MuiGrid-grid-lg-8-112",
+                      "grid-lg-9": "MuiGrid-grid-lg-9-113",
+                      "grid-lg-auto": "MuiGrid-grid-lg-auto-103",
+                      "grid-lg-true": "MuiGrid-grid-lg-true-104",
+                      "grid-md-1": "MuiGrid-grid-md-1-91",
+                      "grid-md-10": "MuiGrid-grid-md-10-100",
+                      "grid-md-11": "MuiGrid-grid-md-11-101",
+                      "grid-md-12": "MuiGrid-grid-md-12-102",
+                      "grid-md-2": "MuiGrid-grid-md-2-92",
+                      "grid-md-3": "MuiGrid-grid-md-3-93",
+                      "grid-md-4": "MuiGrid-grid-md-4-94",
+                      "grid-md-5": "MuiGrid-grid-md-5-95",
+                      "grid-md-6": "MuiGrid-grid-md-6-96",
+                      "grid-md-7": "MuiGrid-grid-md-7-97",
+                      "grid-md-8": "MuiGrid-grid-md-8-98",
+                      "grid-md-9": "MuiGrid-grid-md-9-99",
+                      "grid-md-auto": "MuiGrid-grid-md-auto-89",
+                      "grid-md-true": "MuiGrid-grid-md-true-90",
+                      "grid-sm-1": "MuiGrid-grid-sm-1-77",
+                      "grid-sm-10": "MuiGrid-grid-sm-10-86",
+                      "grid-sm-11": "MuiGrid-grid-sm-11-87",
+                      "grid-sm-12": "MuiGrid-grid-sm-12-88",
+                      "grid-sm-2": "MuiGrid-grid-sm-2-78",
+                      "grid-sm-3": "MuiGrid-grid-sm-3-79",
+                      "grid-sm-4": "MuiGrid-grid-sm-4-80",
+                      "grid-sm-5": "MuiGrid-grid-sm-5-81",
+                      "grid-sm-6": "MuiGrid-grid-sm-6-82",
+                      "grid-sm-7": "MuiGrid-grid-sm-7-83",
+                      "grid-sm-8": "MuiGrid-grid-sm-8-84",
+                      "grid-sm-9": "MuiGrid-grid-sm-9-85",
+                      "grid-sm-auto": "MuiGrid-grid-sm-auto-75",
+                      "grid-sm-true": "MuiGrid-grid-sm-true-76",
+                      "grid-xl-1": "MuiGrid-grid-xl-1-119",
+                      "grid-xl-10": "MuiGrid-grid-xl-10-128",
+                      "grid-xl-11": "MuiGrid-grid-xl-11-129",
+                      "grid-xl-12": "MuiGrid-grid-xl-12-130",
+                      "grid-xl-2": "MuiGrid-grid-xl-2-120",
+                      "grid-xl-3": "MuiGrid-grid-xl-3-121",
+                      "grid-xl-4": "MuiGrid-grid-xl-4-122",
+                      "grid-xl-5": "MuiGrid-grid-xl-5-123",
+                      "grid-xl-6": "MuiGrid-grid-xl-6-124",
+                      "grid-xl-7": "MuiGrid-grid-xl-7-125",
+                      "grid-xl-8": "MuiGrid-grid-xl-8-126",
+                      "grid-xl-9": "MuiGrid-grid-xl-9-127",
+                      "grid-xl-auto": "MuiGrid-grid-xl-auto-117",
+                      "grid-xl-true": "MuiGrid-grid-xl-true-118",
+                      "grid-xs-1": "MuiGrid-grid-xs-1-63",
+                      "grid-xs-10": "MuiGrid-grid-xs-10-72",
+                      "grid-xs-11": "MuiGrid-grid-xs-11-73",
+                      "grid-xs-12": "MuiGrid-grid-xs-12-74",
+                      "grid-xs-2": "MuiGrid-grid-xs-2-64",
+                      "grid-xs-3": "MuiGrid-grid-xs-3-65",
+                      "grid-xs-4": "MuiGrid-grid-xs-4-66",
+                      "grid-xs-5": "MuiGrid-grid-xs-5-67",
+                      "grid-xs-6": "MuiGrid-grid-xs-6-68",
+                      "grid-xs-7": "MuiGrid-grid-xs-7-69",
+                      "grid-xs-8": "MuiGrid-grid-xs-8-70",
+                      "grid-xs-9": "MuiGrid-grid-xs-9-71",
+                      "grid-xs-auto": "MuiGrid-grid-xs-auto-61",
+                      "grid-xs-true": "MuiGrid-grid-xs-true-62",
+                      "item": "MuiGrid-item-35",
+                      "justify-xs-center": "MuiGrid-justify-xs-center-51",
+                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-52",
+                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around-54",
+                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between-53",
+                      "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-55",
+                      "spacing-xs-16": "MuiGrid-spacing-xs-16-57",
+                      "spacing-xs-24": "MuiGrid-spacing-xs-24-58",
+                      "spacing-xs-32": "MuiGrid-spacing-xs-32-59",
+                      "spacing-xs-40": "MuiGrid-spacing-xs-40-60",
+                      "spacing-xs-8": "MuiGrid-spacing-xs-8-56",
+                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-40",
+                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-41",
+                      "zeroMinWidth": "MuiGrid-zeroMinWidth-36",
+                    }
+                  }
+                  component="div"
+                  container={true}
+                  direction="row"
+                  item={false}
+                  justify="flex-start"
+                  lg={false}
+                  md={false}
+                  sm={false}
+                  spacing={0}
+                  wrap="wrap"
+                  xl={false}
+                  xs={false}
+                  zeroMinWidth={false}
+                >
+                  <div
+                    className="MuiGrid-container-34 CardPageComponent-root-1"
+                  >
+                    <WithStyles(Grid)
+                      className="CardPageComponent-card-2"
+                      item={true}
+                      xs={12}
+                    >
+                      <Grid
+                        alignContent="stretch"
+                        alignItems="stretch"
+                        className="CardPageComponent-card-2"
+                        classes={
+                          Object {
+                            "align-content-xs-center": "MuiGrid-align-content-xs-center-46",
+                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-48",
+                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-47",
+                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-50",
+                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-49",
+                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-45",
+                            "align-items-xs-center": "MuiGrid-align-items-xs-center-42",
+                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-44",
+                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-43",
+                            "container": "MuiGrid-container-34",
+                            "direction-xs-column": "MuiGrid-direction-xs-column-37",
+                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-38",
+                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-39",
+                            "grid-lg-1": "MuiGrid-grid-lg-1-105",
+                            "grid-lg-10": "MuiGrid-grid-lg-10-114",
+                            "grid-lg-11": "MuiGrid-grid-lg-11-115",
+                            "grid-lg-12": "MuiGrid-grid-lg-12-116",
+                            "grid-lg-2": "MuiGrid-grid-lg-2-106",
+                            "grid-lg-3": "MuiGrid-grid-lg-3-107",
+                            "grid-lg-4": "MuiGrid-grid-lg-4-108",
+                            "grid-lg-5": "MuiGrid-grid-lg-5-109",
+                            "grid-lg-6": "MuiGrid-grid-lg-6-110",
+                            "grid-lg-7": "MuiGrid-grid-lg-7-111",
+                            "grid-lg-8": "MuiGrid-grid-lg-8-112",
+                            "grid-lg-9": "MuiGrid-grid-lg-9-113",
+                            "grid-lg-auto": "MuiGrid-grid-lg-auto-103",
+                            "grid-lg-true": "MuiGrid-grid-lg-true-104",
+                            "grid-md-1": "MuiGrid-grid-md-1-91",
+                            "grid-md-10": "MuiGrid-grid-md-10-100",
+                            "grid-md-11": "MuiGrid-grid-md-11-101",
+                            "grid-md-12": "MuiGrid-grid-md-12-102",
+                            "grid-md-2": "MuiGrid-grid-md-2-92",
+                            "grid-md-3": "MuiGrid-grid-md-3-93",
+                            "grid-md-4": "MuiGrid-grid-md-4-94",
+                            "grid-md-5": "MuiGrid-grid-md-5-95",
+                            "grid-md-6": "MuiGrid-grid-md-6-96",
+                            "grid-md-7": "MuiGrid-grid-md-7-97",
+                            "grid-md-8": "MuiGrid-grid-md-8-98",
+                            "grid-md-9": "MuiGrid-grid-md-9-99",
+                            "grid-md-auto": "MuiGrid-grid-md-auto-89",
+                            "grid-md-true": "MuiGrid-grid-md-true-90",
+                            "grid-sm-1": "MuiGrid-grid-sm-1-77",
+                            "grid-sm-10": "MuiGrid-grid-sm-10-86",
+                            "grid-sm-11": "MuiGrid-grid-sm-11-87",
+                            "grid-sm-12": "MuiGrid-grid-sm-12-88",
+                            "grid-sm-2": "MuiGrid-grid-sm-2-78",
+                            "grid-sm-3": "MuiGrid-grid-sm-3-79",
+                            "grid-sm-4": "MuiGrid-grid-sm-4-80",
+                            "grid-sm-5": "MuiGrid-grid-sm-5-81",
+                            "grid-sm-6": "MuiGrid-grid-sm-6-82",
+                            "grid-sm-7": "MuiGrid-grid-sm-7-83",
+                            "grid-sm-8": "MuiGrid-grid-sm-8-84",
+                            "grid-sm-9": "MuiGrid-grid-sm-9-85",
+                            "grid-sm-auto": "MuiGrid-grid-sm-auto-75",
+                            "grid-sm-true": "MuiGrid-grid-sm-true-76",
+                            "grid-xl-1": "MuiGrid-grid-xl-1-119",
+                            "grid-xl-10": "MuiGrid-grid-xl-10-128",
+                            "grid-xl-11": "MuiGrid-grid-xl-11-129",
+                            "grid-xl-12": "MuiGrid-grid-xl-12-130",
+                            "grid-xl-2": "MuiGrid-grid-xl-2-120",
+                            "grid-xl-3": "MuiGrid-grid-xl-3-121",
+                            "grid-xl-4": "MuiGrid-grid-xl-4-122",
+                            "grid-xl-5": "MuiGrid-grid-xl-5-123",
+                            "grid-xl-6": "MuiGrid-grid-xl-6-124",
+                            "grid-xl-7": "MuiGrid-grid-xl-7-125",
+                            "grid-xl-8": "MuiGrid-grid-xl-8-126",
+                            "grid-xl-9": "MuiGrid-grid-xl-9-127",
+                            "grid-xl-auto": "MuiGrid-grid-xl-auto-117",
+                            "grid-xl-true": "MuiGrid-grid-xl-true-118",
+                            "grid-xs-1": "MuiGrid-grid-xs-1-63",
+                            "grid-xs-10": "MuiGrid-grid-xs-10-72",
+                            "grid-xs-11": "MuiGrid-grid-xs-11-73",
+                            "grid-xs-12": "MuiGrid-grid-xs-12-74",
+                            "grid-xs-2": "MuiGrid-grid-xs-2-64",
+                            "grid-xs-3": "MuiGrid-grid-xs-3-65",
+                            "grid-xs-4": "MuiGrid-grid-xs-4-66",
+                            "grid-xs-5": "MuiGrid-grid-xs-5-67",
+                            "grid-xs-6": "MuiGrid-grid-xs-6-68",
+                            "grid-xs-7": "MuiGrid-grid-xs-7-69",
+                            "grid-xs-8": "MuiGrid-grid-xs-8-70",
+                            "grid-xs-9": "MuiGrid-grid-xs-9-71",
+                            "grid-xs-auto": "MuiGrid-grid-xs-auto-61",
+                            "grid-xs-true": "MuiGrid-grid-xs-true-62",
+                            "item": "MuiGrid-item-35",
+                            "justify-xs-center": "MuiGrid-justify-xs-center-51",
+                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-52",
+                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-54",
+                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-53",
+                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-55",
+                            "spacing-xs-16": "MuiGrid-spacing-xs-16-57",
+                            "spacing-xs-24": "MuiGrid-spacing-xs-24-58",
+                            "spacing-xs-32": "MuiGrid-spacing-xs-32-59",
+                            "spacing-xs-40": "MuiGrid-spacing-xs-40-60",
+                            "spacing-xs-8": "MuiGrid-spacing-xs-8-56",
+                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-40",
+                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-41",
+                            "zeroMinWidth": "MuiGrid-zeroMinWidth-36",
+                          }
+                        }
+                        component="div"
+                        container={false}
+                        direction="row"
+                        item={true}
+                        justify="flex-start"
+                        lg={false}
+                        md={false}
+                        sm={false}
+                        spacing={0}
+                        wrap="wrap"
+                        xl={false}
+                        xs={12}
+                        zeroMinWidth={false}
+                      >
+                        <div
+                          className="MuiGrid-item-35 MuiGrid-grid-xs-12-74 CardPageComponent-card-2"
+                        >
+                          <WithStyles(CardMedia)
+                            className="CardPageComponent-media-3"
+                            image="/trocapp/static/image/teste.png"
+                            title="teste"
+                          >
+                            <CardMedia
+                              className="CardPageComponent-media-3"
+                              classes={
+                                Object {
+                                  "media": "MuiCardMedia-media-132",
+                                  "root": "MuiCardMedia-root-131",
+                                }
+                              }
+                              component="div"
+                              image="/trocapp/static/image/teste.png"
+                              title="teste"
+                            >
+                              <div
+                                className="MuiCardMedia-root-131 CardPageComponent-media-3"
+                                style={
+                                  Object {
+                                    "backgroundImage": "url(\\"/trocapp/static/image/teste.png\\")",
+                                  }
+                                }
+                                title="teste"
+                              />
+                            </CardMedia>
+                          </WithStyles(CardMedia)>
+                          <WithStyles(CardContent)>
+                            <CardContent
+                              classes={
+                                Object {
+                                  "root": "MuiCardContent-root-133",
+                                }
+                              }
+                              component="div"
+                            >
+                              <div
+                                className="MuiCardContent-root-133"
+                              >
+                                <WithStyles(Typography)
+                                  className="CardPageComponent-title-5"
+                                  component="h2"
+                                  gutterBottom={true}
+                                  variant="headline"
+                                >
+                                  <Typography
+                                    align="inherit"
+                                    className="CardPageComponent-title-5"
+                                    classes={
+                                      Object {
+                                        "alignCenter": "MuiTypography-alignCenter-147",
+                                        "alignJustify": "MuiTypography-alignJustify-149",
+                                        "alignLeft": "MuiTypography-alignLeft-146",
+                                        "alignRight": "MuiTypography-alignRight-148",
+                                        "body1": "MuiTypography-body1-143",
+                                        "body2": "MuiTypography-body2-142",
+                                        "button": "MuiTypography-button-145",
+                                        "caption": "MuiTypography-caption-144",
+                                        "colorError": "MuiTypography-colorError-158",
+                                        "colorInherit": "MuiTypography-colorInherit-153",
+                                        "colorPrimary": "MuiTypography-colorPrimary-154",
+                                        "colorSecondary": "MuiTypography-colorSecondary-155",
+                                        "colorTextPrimary": "MuiTypography-colorTextPrimary-156",
+                                        "colorTextSecondary": "MuiTypography-colorTextSecondary-157",
+                                        "display1": "MuiTypography-display1-138",
+                                        "display2": "MuiTypography-display2-137",
+                                        "display3": "MuiTypography-display3-136",
+                                        "display4": "MuiTypography-display4-135",
+                                        "gutterBottom": "MuiTypography-gutterBottom-151",
+                                        "headline": "MuiTypography-headline-139",
+                                        "noWrap": "MuiTypography-noWrap-150",
+                                        "paragraph": "MuiTypography-paragraph-152",
+                                        "root": "MuiTypography-root-134",
+                                        "subheading": "MuiTypography-subheading-141",
+                                        "title": "MuiTypography-title-140",
+                                      }
+                                    }
+                                    color="default"
+                                    component="h2"
+                                    gutterBottom={true}
+                                    headlineMapping={
+                                      Object {
+                                        "body1": "p",
+                                        "body2": "aside",
+                                        "display1": "h1",
+                                        "display2": "h1",
+                                        "display3": "h1",
+                                        "display4": "h1",
+                                        "headline": "h1",
+                                        "subheading": "h3",
+                                        "title": "h2",
+                                      }
+                                    }
+                                    noWrap={false}
+                                    paragraph={false}
+                                    variant="headline"
+                                  >
+                                    <h2
+                                      className="MuiTypography-root-134 MuiTypography-headline-139 MuiTypography-gutterBottom-151 CardPageComponent-title-5"
+                                    >
+                                      teste
+                                    </h2>
+                                  </Typography>
+                                </WithStyles(Typography)>
+                                <WithStyles(Typography)
+                                  component="p"
+                                >
+                                  <Typography
+                                    align="inherit"
+                                    classes={
+                                      Object {
+                                        "alignCenter": "MuiTypography-alignCenter-147",
+                                        "alignJustify": "MuiTypography-alignJustify-149",
+                                        "alignLeft": "MuiTypography-alignLeft-146",
+                                        "alignRight": "MuiTypography-alignRight-148",
+                                        "body1": "MuiTypography-body1-143",
+                                        "body2": "MuiTypography-body2-142",
+                                        "button": "MuiTypography-button-145",
+                                        "caption": "MuiTypography-caption-144",
+                                        "colorError": "MuiTypography-colorError-158",
+                                        "colorInherit": "MuiTypography-colorInherit-153",
+                                        "colorPrimary": "MuiTypography-colorPrimary-154",
+                                        "colorSecondary": "MuiTypography-colorSecondary-155",
+                                        "colorTextPrimary": "MuiTypography-colorTextPrimary-156",
+                                        "colorTextSecondary": "MuiTypography-colorTextSecondary-157",
+                                        "display1": "MuiTypography-display1-138",
+                                        "display2": "MuiTypography-display2-137",
+                                        "display3": "MuiTypography-display3-136",
+                                        "display4": "MuiTypography-display4-135",
+                                        "gutterBottom": "MuiTypography-gutterBottom-151",
+                                        "headline": "MuiTypography-headline-139",
+                                        "noWrap": "MuiTypography-noWrap-150",
+                                        "paragraph": "MuiTypography-paragraph-152",
+                                        "root": "MuiTypography-root-134",
+                                        "subheading": "MuiTypography-subheading-141",
+                                        "title": "MuiTypography-title-140",
+                                      }
+                                    }
+                                    color="default"
+                                    component="p"
+                                    gutterBottom={false}
+                                    headlineMapping={
+                                      Object {
+                                        "body1": "p",
+                                        "body2": "aside",
+                                        "display1": "h1",
+                                        "display2": "h1",
+                                        "display3": "h1",
+                                        "display4": "h1",
+                                        "headline": "h1",
+                                        "subheading": "h3",
+                                        "title": "h2",
+                                      }
+                                    }
+                                    noWrap={false}
+                                    paragraph={false}
+                                    variant="body1"
+                                  >
+                                    <p
+                                      className="MuiTypography-root-134 MuiTypography-body1-143"
+                                    >
+                                      mock
+                                    </p>
+                                  </Typography>
+                                </WithStyles(Typography)>
+                              </div>
+                            </CardContent>
+                          </WithStyles(CardContent)>
+                          <WithStyles(CardActions)>
+                            <CardActions
+                              classes={
+                                Object {
+                                  "action": "MuiCardActions-action-160",
+                                  "root": "MuiCardActions-root-159",
+                                }
+                              }
+                              disableActionSpacing={false}
+                            >
+                              <div
+                                className="MuiCardActions-root-159"
+                              >
+                                <WithStyles(Button)
+                                  className="MuiCardActions-action-160"
+                                  color="primary"
+                                  key=".0"
+                                  size="small"
+                                >
+                                  <Button
+                                    className="MuiCardActions-action-160"
+                                    classes={
+                                      Object {
+                                        "colorInherit": "MuiButton-colorInherit-180",
+                                        "contained": "MuiButton-contained-170",
+                                        "containedPrimary": "MuiButton-containedPrimary-171",
+                                        "containedSecondary": "MuiButton-containedSecondary-172",
+                                        "disabled": "MuiButton-disabled-179",
+                                        "extendedFab": "MuiButton-extendedFab-177",
+                                        "fab": "MuiButton-fab-176",
+                                        "flat": "MuiButton-flat-166",
+                                        "flatPrimary": "MuiButton-flatPrimary-167",
+                                        "flatSecondary": "MuiButton-flatSecondary-168",
+                                        "focusVisible": "MuiButton-focusVisible-178",
+                                        "fullWidth": "MuiButton-fullWidth-184",
+                                        "label": "MuiButton-label-162",
+                                        "mini": "MuiButton-mini-181",
+                                        "outlined": "MuiButton-outlined-169",
+                                        "raised": "MuiButton-raised-173",
+                                        "raisedPrimary": "MuiButton-raisedPrimary-174",
+                                        "raisedSecondary": "MuiButton-raisedSecondary-175",
+                                        "root": "MuiButton-root-161",
+                                        "sizeLarge": "MuiButton-sizeLarge-183",
+                                        "sizeSmall": "MuiButton-sizeSmall-182",
+                                        "text": "MuiButton-text-163",
+                                        "textPrimary": "MuiButton-textPrimary-164",
+                                        "textSecondary": "MuiButton-textSecondary-165",
+                                      }
+                                    }
+                                    color="primary"
+                                    component="button"
+                                    disableFocusRipple={false}
+                                    disabled={false}
+                                    fullWidth={false}
+                                    mini={false}
+                                    size="small"
+                                    type="button"
+                                    variant="text"
+                                  >
+                                    <WithStyles(ButtonBase)
+                                      className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                      component="button"
+                                      disabled={false}
+                                      focusRipple={true}
+                                      focusVisibleClassName="MuiButton-focusVisible-178"
+                                      type="button"
+                                    >
+                                      <ButtonBase
+                                        centerRipple={false}
+                                        className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                        classes={
+                                          Object {
+                                            "disabled": "MuiButtonBase-disabled-186",
+                                            "focusVisible": "MuiButtonBase-focusVisible-187",
+                                            "root": "MuiButtonBase-root-185",
+                                          }
+                                        }
+                                        component="button"
+                                        disableRipple={false}
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        focusRipple={true}
+                                        focusVisibleClassName="MuiButton-focusVisible-178"
+                                        tabIndex="0"
+                                        type="button"
+                                      >
+                                        <button
+                                          className="MuiButtonBase-root-185 MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                          disabled={false}
+                                          onBlur={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          onKeyUp={[Function]}
+                                          onMouseDown={[Function]}
+                                          onMouseLeave={[Function]}
+                                          onMouseUp={[Function]}
+                                          onTouchEnd={[Function]}
+                                          onTouchMove={[Function]}
+                                          onTouchStart={[Function]}
+                                          tabIndex="0"
+                                          type="button"
+                                        >
+                                          <span
+                                            className="MuiButton-label-162"
+                                          >
+                                            Trocar
+                                          </span>
+                                          <WithStyles(TouchRipple)
+                                            center={false}
+                                            innerRef={[Function]}
+                                          >
+                                            <TouchRipple
+                                              center={false}
+                                              classes={
+                                                Object {
+                                                  "child": "MuiTouchRipple-child-192",
+                                                  "childLeaving": "MuiTouchRipple-childLeaving-193",
+                                                  "childPulsate": "MuiTouchRipple-childPulsate-194",
+                                                  "ripple": "MuiTouchRipple-ripple-189",
+                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-191",
+                                                  "rippleVisible": "MuiTouchRipple-rippleVisible-190",
+                                                  "root": "MuiTouchRipple-root-188",
+                                                }
+                                              }
+                                            >
+                                              <TransitionGroup
+                                                childFactory={[Function]}
+                                                className="MuiTouchRipple-root-188"
+                                                component="span"
+                                                enter={true}
+                                                exit={true}
+                                              >
+                                                <span
+                                                  className="MuiTouchRipple-root-188"
+                                                />
+                                              </TransitionGroup>
+                                            </TouchRipple>
+                                          </WithStyles(TouchRipple)>
+                                        </button>
+                                      </ButtonBase>
+                                    </WithStyles(ButtonBase)>
+                                  </Button>
+                                </WithStyles(Button)>
+                                <WithStyles(Button)
+                                  className="MuiCardActions-action-160"
+                                  color="primary"
+                                  key=".1"
+                                  size="small"
+                                >
+                                  <Button
+                                    className="MuiCardActions-action-160"
+                                    classes={
+                                      Object {
+                                        "colorInherit": "MuiButton-colorInherit-180",
+                                        "contained": "MuiButton-contained-170",
+                                        "containedPrimary": "MuiButton-containedPrimary-171",
+                                        "containedSecondary": "MuiButton-containedSecondary-172",
+                                        "disabled": "MuiButton-disabled-179",
+                                        "extendedFab": "MuiButton-extendedFab-177",
+                                        "fab": "MuiButton-fab-176",
+                                        "flat": "MuiButton-flat-166",
+                                        "flatPrimary": "MuiButton-flatPrimary-167",
+                                        "flatSecondary": "MuiButton-flatSecondary-168",
+                                        "focusVisible": "MuiButton-focusVisible-178",
+                                        "fullWidth": "MuiButton-fullWidth-184",
+                                        "label": "MuiButton-label-162",
+                                        "mini": "MuiButton-mini-181",
+                                        "outlined": "MuiButton-outlined-169",
+                                        "raised": "MuiButton-raised-173",
+                                        "raisedPrimary": "MuiButton-raisedPrimary-174",
+                                        "raisedSecondary": "MuiButton-raisedSecondary-175",
+                                        "root": "MuiButton-root-161",
+                                        "sizeLarge": "MuiButton-sizeLarge-183",
+                                        "sizeSmall": "MuiButton-sizeSmall-182",
+                                        "text": "MuiButton-text-163",
+                                        "textPrimary": "MuiButton-textPrimary-164",
+                                        "textSecondary": "MuiButton-textSecondary-165",
+                                      }
+                                    }
+                                    color="primary"
+                                    component="button"
+                                    disableFocusRipple={false}
+                                    disabled={false}
+                                    fullWidth={false}
+                                    mini={false}
+                                    size="small"
+                                    type="button"
+                                    variant="text"
+                                  >
+                                    <WithStyles(ButtonBase)
+                                      className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                      component="button"
+                                      disabled={false}
+                                      focusRipple={true}
+                                      focusVisibleClassName="MuiButton-focusVisible-178"
+                                      type="button"
+                                    >
+                                      <ButtonBase
+                                        centerRipple={false}
+                                        className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                        classes={
+                                          Object {
+                                            "disabled": "MuiButtonBase-disabled-186",
+                                            "focusVisible": "MuiButtonBase-focusVisible-187",
+                                            "root": "MuiButtonBase-root-185",
+                                          }
+                                        }
+                                        component="button"
+                                        disableRipple={false}
+                                        disableTouchRipple={false}
+                                        disabled={false}
+                                        focusRipple={true}
+                                        focusVisibleClassName="MuiButton-focusVisible-178"
+                                        tabIndex="0"
+                                        type="button"
+                                      >
+                                        <button
+                                          className="MuiButtonBase-root-185 MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                          disabled={false}
+                                          onBlur={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          onKeyUp={[Function]}
+                                          onMouseDown={[Function]}
+                                          onMouseLeave={[Function]}
+                                          onMouseUp={[Function]}
+                                          onTouchEnd={[Function]}
+                                          onTouchMove={[Function]}
+                                          onTouchStart={[Function]}
+                                          tabIndex="0"
+                                          type="button"
+                                        >
+                                          <span
+                                            className="MuiButton-label-162"
+                                          >
+                                            Eu quero!
+                                          </span>
+                                          <WithStyles(TouchRipple)
+                                            center={false}
+                                            innerRef={[Function]}
+                                          >
+                                            <TouchRipple
+                                              center={false}
+                                              classes={
+                                                Object {
+                                                  "child": "MuiTouchRipple-child-192",
+                                                  "childLeaving": "MuiTouchRipple-childLeaving-193",
+                                                  "childPulsate": "MuiTouchRipple-childPulsate-194",
+                                                  "ripple": "MuiTouchRipple-ripple-189",
+                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-191",
+                                                  "rippleVisible": "MuiTouchRipple-rippleVisible-190",
+                                                  "root": "MuiTouchRipple-root-188",
+                                                }
+                                              }
+                                            >
+                                              <TransitionGroup
+                                                childFactory={[Function]}
+                                                className="MuiTouchRipple-root-188"
+                                                component="span"
+                                                enter={true}
+                                                exit={true}
+                                              >
+                                                <span
+                                                  className="MuiTouchRipple-root-188"
+                                                />
+                                              </TransitionGroup>
+                                            </TouchRipple>
+                                          </WithStyles(TouchRipple)>
+                                        </button>
+                                      </ButtonBase>
+                                    </WithStyles(ButtonBase)>
+                                  </Button>
+                                </WithStyles(Button)>
+                              </div>
+                            </CardActions>
+                          </WithStyles(CardActions)>
+                        </div>
+                      </Grid>
+                    </WithStyles(Grid)>
+                    <WithStyles(Grid)
+                      className="CardPageComponent-card-2 CardPageComponent-root-1"
+                      item={true}
+                      md={3}
+                      xs={12}
+                    >
+                      <Grid
+                        alignContent="stretch"
+                        alignItems="stretch"
+                        className="CardPageComponent-card-2 CardPageComponent-root-1"
+                        classes={
+                          Object {
+                            "align-content-xs-center": "MuiGrid-align-content-xs-center-46",
+                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-48",
+                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-47",
+                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-50",
+                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-49",
+                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-45",
+                            "align-items-xs-center": "MuiGrid-align-items-xs-center-42",
+                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-44",
+                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-43",
+                            "container": "MuiGrid-container-34",
+                            "direction-xs-column": "MuiGrid-direction-xs-column-37",
+                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-38",
+                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-39",
+                            "grid-lg-1": "MuiGrid-grid-lg-1-105",
+                            "grid-lg-10": "MuiGrid-grid-lg-10-114",
+                            "grid-lg-11": "MuiGrid-grid-lg-11-115",
+                            "grid-lg-12": "MuiGrid-grid-lg-12-116",
+                            "grid-lg-2": "MuiGrid-grid-lg-2-106",
+                            "grid-lg-3": "MuiGrid-grid-lg-3-107",
+                            "grid-lg-4": "MuiGrid-grid-lg-4-108",
+                            "grid-lg-5": "MuiGrid-grid-lg-5-109",
+                            "grid-lg-6": "MuiGrid-grid-lg-6-110",
+                            "grid-lg-7": "MuiGrid-grid-lg-7-111",
+                            "grid-lg-8": "MuiGrid-grid-lg-8-112",
+                            "grid-lg-9": "MuiGrid-grid-lg-9-113",
+                            "grid-lg-auto": "MuiGrid-grid-lg-auto-103",
+                            "grid-lg-true": "MuiGrid-grid-lg-true-104",
+                            "grid-md-1": "MuiGrid-grid-md-1-91",
+                            "grid-md-10": "MuiGrid-grid-md-10-100",
+                            "grid-md-11": "MuiGrid-grid-md-11-101",
+                            "grid-md-12": "MuiGrid-grid-md-12-102",
+                            "grid-md-2": "MuiGrid-grid-md-2-92",
+                            "grid-md-3": "MuiGrid-grid-md-3-93",
+                            "grid-md-4": "MuiGrid-grid-md-4-94",
+                            "grid-md-5": "MuiGrid-grid-md-5-95",
+                            "grid-md-6": "MuiGrid-grid-md-6-96",
+                            "grid-md-7": "MuiGrid-grid-md-7-97",
+                            "grid-md-8": "MuiGrid-grid-md-8-98",
+                            "grid-md-9": "MuiGrid-grid-md-9-99",
+                            "grid-md-auto": "MuiGrid-grid-md-auto-89",
+                            "grid-md-true": "MuiGrid-grid-md-true-90",
+                            "grid-sm-1": "MuiGrid-grid-sm-1-77",
+                            "grid-sm-10": "MuiGrid-grid-sm-10-86",
+                            "grid-sm-11": "MuiGrid-grid-sm-11-87",
+                            "grid-sm-12": "MuiGrid-grid-sm-12-88",
+                            "grid-sm-2": "MuiGrid-grid-sm-2-78",
+                            "grid-sm-3": "MuiGrid-grid-sm-3-79",
+                            "grid-sm-4": "MuiGrid-grid-sm-4-80",
+                            "grid-sm-5": "MuiGrid-grid-sm-5-81",
+                            "grid-sm-6": "MuiGrid-grid-sm-6-82",
+                            "grid-sm-7": "MuiGrid-grid-sm-7-83",
+                            "grid-sm-8": "MuiGrid-grid-sm-8-84",
+                            "grid-sm-9": "MuiGrid-grid-sm-9-85",
+                            "grid-sm-auto": "MuiGrid-grid-sm-auto-75",
+                            "grid-sm-true": "MuiGrid-grid-sm-true-76",
+                            "grid-xl-1": "MuiGrid-grid-xl-1-119",
+                            "grid-xl-10": "MuiGrid-grid-xl-10-128",
+                            "grid-xl-11": "MuiGrid-grid-xl-11-129",
+                            "grid-xl-12": "MuiGrid-grid-xl-12-130",
+                            "grid-xl-2": "MuiGrid-grid-xl-2-120",
+                            "grid-xl-3": "MuiGrid-grid-xl-3-121",
+                            "grid-xl-4": "MuiGrid-grid-xl-4-122",
+                            "grid-xl-5": "MuiGrid-grid-xl-5-123",
+                            "grid-xl-6": "MuiGrid-grid-xl-6-124",
+                            "grid-xl-7": "MuiGrid-grid-xl-7-125",
+                            "grid-xl-8": "MuiGrid-grid-xl-8-126",
+                            "grid-xl-9": "MuiGrid-grid-xl-9-127",
+                            "grid-xl-auto": "MuiGrid-grid-xl-auto-117",
+                            "grid-xl-true": "MuiGrid-grid-xl-true-118",
+                            "grid-xs-1": "MuiGrid-grid-xs-1-63",
+                            "grid-xs-10": "MuiGrid-grid-xs-10-72",
+                            "grid-xs-11": "MuiGrid-grid-xs-11-73",
+                            "grid-xs-12": "MuiGrid-grid-xs-12-74",
+                            "grid-xs-2": "MuiGrid-grid-xs-2-64",
+                            "grid-xs-3": "MuiGrid-grid-xs-3-65",
+                            "grid-xs-4": "MuiGrid-grid-xs-4-66",
+                            "grid-xs-5": "MuiGrid-grid-xs-5-67",
+                            "grid-xs-6": "MuiGrid-grid-xs-6-68",
+                            "grid-xs-7": "MuiGrid-grid-xs-7-69",
+                            "grid-xs-8": "MuiGrid-grid-xs-8-70",
+                            "grid-xs-9": "MuiGrid-grid-xs-9-71",
+                            "grid-xs-auto": "MuiGrid-grid-xs-auto-61",
+                            "grid-xs-true": "MuiGrid-grid-xs-true-62",
+                            "item": "MuiGrid-item-35",
+                            "justify-xs-center": "MuiGrid-justify-xs-center-51",
+                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-52",
+                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-54",
+                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-53",
+                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-55",
+                            "spacing-xs-16": "MuiGrid-spacing-xs-16-57",
+                            "spacing-xs-24": "MuiGrid-spacing-xs-24-58",
+                            "spacing-xs-32": "MuiGrid-spacing-xs-32-59",
+                            "spacing-xs-40": "MuiGrid-spacing-xs-40-60",
+                            "spacing-xs-8": "MuiGrid-spacing-xs-8-56",
+                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-40",
+                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-41",
+                            "zeroMinWidth": "MuiGrid-zeroMinWidth-36",
+                          }
+                        }
+                        component="div"
+                        container={false}
+                        direction="row"
+                        item={true}
+                        justify="flex-start"
+                        lg={false}
+                        md={3}
+                        sm={false}
+                        spacing={0}
+                        wrap="wrap"
+                        xl={false}
+                        xs={12}
+                        zeroMinWidth={false}
+                      >
+                        <div
+                          className="MuiGrid-item-35 MuiGrid-grid-xs-12-74 MuiGrid-grid-md-3-93 CardPageComponent-card-2 CardPageComponent-root-1"
+                        />
+                      </Grid>
+                    </WithStyles(Grid)>
+                  </div>
+                </Grid>
+              </WithStyles(Grid)>
+            </div>
+          </Paper>
+        </WithStyles(Paper)>
+      </Card>
+    </WithStyles(Card)>
+  </CardPageComponent>
+</WithStyles(CardPageComponent)>
+`;
