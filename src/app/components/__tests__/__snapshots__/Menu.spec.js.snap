@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menu deveria ser igual ao snapshot 1`] = `
+<WithStyles(Menu)
+  title="home"
+>
+  <Menu
+    classes={
+      Object {
+        "grow": "Menu-grow-2",
+        "inputInput": "Menu-inputInput-8",
+        "inputRoot": "Menu-inputRoot-7",
+        "menuButton": "Menu-menuButton-3",
+        "root": "Menu-root-1",
+        "search": "Menu-search-5",
+        "searchIcon": "Menu-searchIcon-6",
+        "title": "Menu-title-4",
+      }
+    }
+    title="home"
+  >
+    <div
+      className="Menu-root-1"
+    >
+      <WithStyles(AppBar)
+        position="static"
+      >
+        <AppBar
+          classes={
+            Object {
+              "colorDefault": "MuiAppBar-colorDefault-14",
+              "colorPrimary": "MuiAppBar-colorPrimary-15",
+              "colorSecondary": "MuiAppBar-colorSecondary-16",
+              "positionAbsolute": "MuiAppBar-positionAbsolute-11",
+              "positionFixed": "MuiAppBar-positionFixed-10",
+              "positionStatic": "MuiAppBar-positionStatic-13",
+              "positionSticky": "MuiAppBar-positionSticky-12",
+              "root": "MuiAppBar-root-9",
+            }
+          }
+          color="primary"
+          position="static"
+        >
+          <WithStyles(Paper)
+            className="MuiAppBar-root-9 MuiAppBar-positionStatic-13 MuiAppBar-colorPrimary-15"
+            component="header"
+            elevation={4}
+            square={true}
+          >
+            <Paper
+              className="MuiAppBar-root-9 MuiAppBar-positionStatic-13 MuiAppBar-colorPrimary-15"
+              classes={
+                Object {
+                  "elevation0": "MuiPaper-elevation0-19",
+                  "elevation1": "MuiPaper-elevation1-20",
+                  "elevation10": "MuiPaper-elevation10-29",
+                  "elevation11": "MuiPaper-elevation11-30",
+                  "elevation12": "MuiPaper-elevation12-31",
+                  "elevation13": "MuiPaper-elevation13-32",
+                  "elevation14": "MuiPaper-elevation14-33",
+                  "elevation15": "MuiPaper-elevation15-34",
+                  "elevation16": "MuiPaper-elevation16-35",
+                  "elevation17": "MuiPaper-elevation17-36",
+                  "elevation18": "MuiPaper-elevation18-37",
+                  "elevation19": "MuiPaper-elevation19-38",
+                  "elevation2": "MuiPaper-elevation2-21",
+                  "elevation20": "MuiPaper-elevation20-39",
+                  "elevation21": "MuiPaper-elevation21-40",
+                  "elevation22": "MuiPaper-elevation22-41",
+                  "elevation23": "MuiPaper-elevation23-42",
+                  "elevation24": "MuiPaper-elevation24-43",
+                  "elevation3": "MuiPaper-elevation3-22",
+                  "elevation4": "MuiPaper-elevation4-23",
+                  "elevation5": "MuiPaper-elevation5-24",
+                  "elevation6": "MuiPaper-elevation6-25",
+                  "elevation7": "MuiPaper-elevation7-26",
+                  "elevation8": "MuiPaper-elevation8-27",
+                  "elevation9": "MuiPaper-elevation9-28",
+                  "root": "MuiPaper-root-17",
+                  "rounded": "MuiPaper-rounded-18",
+                }
+              }
+              component="header"
+              elevation={4}
+              square={true}
+            >
+              <header
+                className="MuiPaper-root-17 MuiPaper-elevation4-23 MuiAppBar-root-9 MuiAppBar-positionStatic-13 MuiAppBar-colorPrimary-15"
+              >
+                <WithStyles(Toolbar)>
+                  <Toolbar
+                    classes={
+                      Object {
+                        "dense": "MuiToolbar-dense-47",
+                        "gutters": "MuiToolbar-gutters-45",
+                        "regular": "MuiToolbar-regular-46",
+                        "root": "MuiToolbar-root-44",
+                      }
+                    }
+                    disableGutters={false}
+                    variant="regular"
+                  >
+                    <div
+                      className="MuiToolbar-root-44 MuiToolbar-regular-46 MuiToolbar-gutters-45"
+                    >
+                      <WithStyles(IconButton)
+                        aria-label="Open drawer"
+                        className="Menu-menuButton-3"
+                        color="inherit"
+                      >
+                        <IconButton
+                          aria-label="Open drawer"
+                          className="Menu-menuButton-3"
+                          classes={
+                            Object {
+                              "colorInherit": "MuiIconButton-colorInherit-49",
+                              "colorPrimary": "MuiIconButton-colorPrimary-50",
+                              "colorSecondary": "MuiIconButton-colorSecondary-51",
+                              "disabled": "MuiIconButton-disabled-52",
+                              "label": "MuiIconButton-label-53",
+                              "root": "MuiIconButton-root-48",
+                            }
+                          }
+                          color="inherit"
+                          disabled={false}
+                        >
+                          <WithStyles(ButtonBase)
+                            aria-label="Open drawer"
+                            centerRipple={true}
+                            className="MuiIconButton-root-48 MuiIconButton-colorInherit-49 Menu-menuButton-3"
+                            disabled={false}
+                            focusRipple={true}
+                          >
+                            <ButtonBase
+                              aria-label="Open drawer"
+                              centerRipple={true}
+                              className="MuiIconButton-root-48 MuiIconButton-colorInherit-49 Menu-menuButton-3"
+                              classes={
+                                Object {
+                                  "disabled": "MuiButtonBase-disabled-55",
+                                  "focusVisible": "MuiButtonBase-focusVisible-56",
+                                  "root": "MuiButtonBase-root-54",
+                                }
+                              }
+                              component="button"
+                              disableRipple={false}
+                              disableTouchRipple={false}
+                              disabled={false}
+                              focusRipple={true}
+                              tabIndex="0"
+                              type="button"
+                            >
+                              <button
+                                aria-label="Open drawer"
+                                className="MuiButtonBase-root-54 MuiIconButton-root-48 MuiIconButton-colorInherit-49 Menu-menuButton-3"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                tabIndex="0"
+                                type="button"
+                              >
+                                <span
+                                  className="MuiIconButton-label-53"
+                                >
+                                  <pure(Menu)>
+                                    <Menu>
+                                      <WithStyles(SvgIcon)>
+                                        <SvgIcon
+                                          classes={
+                                            Object {
+                                              "colorAction": "MuiSvgIcon-colorAction-60",
+                                              "colorDisabled": "MuiSvgIcon-colorDisabled-62",
+                                              "colorError": "MuiSvgIcon-colorError-61",
+                                              "colorPrimary": "MuiSvgIcon-colorPrimary-58",
+                                              "colorSecondary": "MuiSvgIcon-colorSecondary-59",
+                                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-63",
+                                              "root": "MuiSvgIcon-root-57",
+                                            }
+                                          }
+                                          color="inherit"
+                                          component="svg"
+                                          fontSize="default"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <svg
+                                            aria-hidden="true"
+                                            className="MuiSvgIcon-root-57"
+                                            focusable="false"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <g>
+                                              <path
+                                                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                                              />
+                                            </g>
+                                          </svg>
+                                        </SvgIcon>
+                                      </WithStyles(SvgIcon)>
+                                    </Menu>
+                                  </pure(Menu)>
+                                </span>
+                                <WithStyles(TouchRipple)
+                                  center={true}
+                                  innerRef={[Function]}
+                                >
+                                  <TouchRipple
+                                    center={true}
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child-68",
+                                        "childLeaving": "MuiTouchRipple-childLeaving-69",
+                                        "childPulsate": "MuiTouchRipple-childPulsate-70",
+                                        "ripple": "MuiTouchRipple-ripple-65",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate-67",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible-66",
+                                        "root": "MuiTouchRipple-root-64",
+                                      }
+                                    }
+                                  >
+                                    <TransitionGroup
+                                      childFactory={[Function]}
+                                      className="MuiTouchRipple-root-64"
+                                      component="span"
+                                      enter={true}
+                                      exit={true}
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root-64"
+                                      />
+                                    </TransitionGroup>
+                                  </TouchRipple>
+                                </WithStyles(TouchRipple)>
+                              </button>
+                            </ButtonBase>
+                          </WithStyles(ButtonBase)>
+                        </IconButton>
+                      </WithStyles(IconButton)>
+                      <WithStyles(Typography)
+                        className="Menu-title-4"
+                        color="inherit"
+                        noWrap={true}
+                        variant="title"
+                      >
+                        <Typography
+                          align="inherit"
+                          className="Menu-title-4"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter-84",
+                              "alignJustify": "MuiTypography-alignJustify-86",
+                              "alignLeft": "MuiTypography-alignLeft-83",
+                              "alignRight": "MuiTypography-alignRight-85",
+                              "body1": "MuiTypography-body1-80",
+                              "body2": "MuiTypography-body2-79",
+                              "button": "MuiTypography-button-82",
+                              "caption": "MuiTypography-caption-81",
+                              "colorError": "MuiTypography-colorError-95",
+                              "colorInherit": "MuiTypography-colorInherit-90",
+                              "colorPrimary": "MuiTypography-colorPrimary-91",
+                              "colorSecondary": "MuiTypography-colorSecondary-92",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary-93",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary-94",
+                              "display1": "MuiTypography-display1-75",
+                              "display2": "MuiTypography-display2-74",
+                              "display3": "MuiTypography-display3-73",
+                              "display4": "MuiTypography-display4-72",
+                              "gutterBottom": "MuiTypography-gutterBottom-88",
+                              "headline": "MuiTypography-headline-76",
+                              "noWrap": "MuiTypography-noWrap-87",
+                              "paragraph": "MuiTypography-paragraph-89",
+                              "root": "MuiTypography-root-71",
+                              "subheading": "MuiTypography-subheading-78",
+                              "title": "MuiTypography-title-77",
+                            }
+                          }
+                          color="inherit"
+                          gutterBottom={false}
+                          headlineMapping={
+                            Object {
+                              "body1": "p",
+                              "body2": "aside",
+                              "display1": "h1",
+                              "display2": "h1",
+                              "display3": "h1",
+                              "display4": "h1",
+                              "headline": "h1",
+                              "subheading": "h3",
+                              "title": "h2",
+                            }
+                          }
+                          noWrap={true}
+                          paragraph={false}
+                          variant="title"
+                        >
+                          <h2
+                            className="MuiTypography-root-71 MuiTypography-title-77 MuiTypography-colorInherit-90 MuiTypography-noWrap-87 Menu-title-4"
+                          >
+                            home
+                          </h2>
+                        </Typography>
+                      </WithStyles(Typography)>
+                      <div
+                        className="Menu-grow-2"
+                      />
+                      <div
+                        className="Menu-search-5"
+                      />
+                    </div>
+                  </Toolbar>
+                </WithStyles(Toolbar)>
+              </header>
+            </Paper>
+          </WithStyles(Paper)>
+        </AppBar>
+      </WithStyles(AppBar)>
+    </div>
+  </Menu>
+</WithStyles(Menu)>
+`;
