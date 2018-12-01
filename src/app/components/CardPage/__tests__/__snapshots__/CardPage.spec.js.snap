@@ -642,13 +642,14 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                                   </Button>
                                 </WithStyles(Button)>
                                 <WithStyles(Button)
-                                  className="MuiCardActions-action-160"
+                                  className="cardpage-btn-eu-quero MuiCardActions-action-160"
                                   color="primary"
                                   key=".1"
+                                  onClick={[Function]}
                                   size="small"
                                 >
                                   <Button
-                                    className="MuiCardActions-action-160"
+                                    className="cardpage-btn-eu-quero MuiCardActions-action-160"
                                     classes={
                                       Object {
                                         "colorInherit": "MuiButton-colorInherit-180",
@@ -683,21 +684,23 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                                     disabled={false}
                                     fullWidth={false}
                                     mini={false}
+                                    onClick={[Function]}
                                     size="small"
                                     type="button"
                                     variant="text"
                                   >
                                     <WithStyles(ButtonBase)
-                                      className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                      className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 cardpage-btn-eu-quero MuiCardActions-action-160"
                                       component="button"
                                       disabled={false}
                                       focusRipple={true}
                                       focusVisibleClassName="MuiButton-focusVisible-178"
+                                      onClick={[Function]}
                                       type="button"
                                     >
                                       <ButtonBase
                                         centerRipple={false}
-                                        className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                        className="MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 cardpage-btn-eu-quero MuiCardActions-action-160"
                                         classes={
                                           Object {
                                             "disabled": "MuiButtonBase-disabled-186",
@@ -711,13 +714,15 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                                         disabled={false}
                                         focusRipple={true}
                                         focusVisibleClassName="MuiButton-focusVisible-178"
+                                        onClick={[Function]}
                                         tabIndex="0"
                                         type="button"
                                       >
                                         <button
-                                          className="MuiButtonBase-root-185 MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 MuiCardActions-action-160"
+                                          className="MuiButtonBase-root-185 MuiButton-root-161 MuiButton-text-163 MuiButton-textPrimary-164 MuiButton-flat-166 MuiButton-flatPrimary-167 MuiButton-sizeSmall-182 cardpage-btn-eu-quero MuiCardActions-action-160"
                                           disabled={false}
                                           onBlur={[Function]}
+                                          onClick={[Function]}
                                           onFocus={[Function]}
                                           onKeyDown={[Function]}
                                           onKeyUp={[Function]}
@@ -733,7 +738,7 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                                           <span
                                             className="MuiButton-label-162"
                                           >
-                                            Eu quero!
+                                            Eu quero
                                           </span>
                                           <WithStyles(TouchRipple)
                                             center={false}

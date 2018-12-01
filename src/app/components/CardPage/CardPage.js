@@ -30,6 +30,18 @@ const styles = theme => ({
 });
 
 class CardPageComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      sobre: '/sobre',
+    };
+  }
+
+  handleClick = event => {
+    event.preventDefault();
+    window.location.assign(this.state.sobre);
+  };
+
   render() {
     const { classes, image, title, description } = this.props;
 
@@ -58,8 +70,13 @@ class CardPageComponent extends React.Component {
                 <Button size="small" color="primary">
                   Trocar
                 </Button>
-                <Button size="small" color="primary">
-                  Eu quero!
+                <Button
+                  className="cardpage-btn-eu-quero"
+                  onClick={this.handleClick}
+                  size="small"
+                  color="primary"
+                >
+                  Eu quero
                 </Button>
               </CardActions>
             </Grid>

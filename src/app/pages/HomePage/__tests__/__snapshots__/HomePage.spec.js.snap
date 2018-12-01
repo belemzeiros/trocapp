@@ -74,9 +74,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -92,7 +93,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"
@@ -166,9 +167,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -184,7 +186,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"
@@ -258,9 +260,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -276,7 +279,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"
@@ -350,9 +353,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -368,7 +372,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"
@@ -442,9 +446,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -460,7 +465,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"
@@ -534,9 +539,10 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 />
               </button>
               <button
-                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
@@ -552,7 +558,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 <span
                   className="MuiButton-label-168"
                 >
-                  Eu quero!
+                  Eu quero
                 </span>
                 <span
                   className="MuiTouchRipple-root-194"

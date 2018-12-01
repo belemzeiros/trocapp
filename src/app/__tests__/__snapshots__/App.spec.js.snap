@@ -17,7 +17,13 @@ exports[`App App will mount correctly 1`] = `
       render={[Function]}
     />
     <Route
+      exact={true}
       key="1"
+      path="/sobre"
+      render={[Function]}
+    />
+    <Route
+      key="2"
       render={[Function]}
     />
   </Switch>
