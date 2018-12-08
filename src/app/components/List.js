@@ -31,6 +31,7 @@ const List = props => {
             image={image}
             title={title}
             description={description}
+            codProduto={id}
           />
         );
       })}

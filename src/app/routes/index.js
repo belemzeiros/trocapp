@@ -25,7 +25,7 @@ export default [
   {
     layout: WebsiteLayout,
     page: ProductDetailPage,
-    path: '/detalhe-produto',
+    path: '/produto/:id',
     exact: true,
   },
   {

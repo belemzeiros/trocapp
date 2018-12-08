@@ -33,17 +33,16 @@ class CardPageComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      sobre: '/sobre',
+      produto: '/produto',
     };
   }
 
-  handleClick = event => {
-    event.preventDefault();
-    window.location.assign(this.state.sobre);
+  handleClick = codProduto => {
+    window.location.assign(`${this.state.produto}/${codProduto}`);
   };
 
   render() {
-    const { classes, image, title, description } = this.props;
+    const { classes, image, title, description, codProduto } = this.props;
 
     return (
       <Card className={classes.card}>
@@ -67,16 +66,13 @@ class CardPageComponent extends React.Component {
                 <Typography component="p">{description}</Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">
-                  Trocar
-                </Button>
                 <Button
                   className="cardpage-btn-eu-quero"
-                  onClick={this.handleClick}
+                  onClick={() => this.handleClick(codProduto)}
                   size="small"
                   color="primary"
                 >
-                  Eu quero
+                  Ver detalhes
                 </Button>
               </CardActions>
             </Grid>
@@ -98,6 +94,7 @@ CardPageComponent.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  codProduto: PropTypes.number.isRequired,
 };
 
 export default withStyles(styles)(CardPageComponent);
