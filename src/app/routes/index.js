@@ -4,6 +4,7 @@ import RedirectToPathContext from '../pages/RedirectToPathContext';
 import HomePage from '../pages/HomePage';
 import AboutPage from '../pages/AboutPage';
 import ProductDetailPage from '../pages/ProductDetailPage';
+import ContactPage from '../pages/ContactPage';
 
 /**
  * Layout: Componente de Layout (HOC)
@@ -25,6 +26,12 @@ export default [
     layout: WebsiteLayout,
     page: ProductDetailPage,
     path: '/detalhe-produto',
+    exact: true,
+  },
+  {
+    layout: WebsiteLayout,
+    page: ContactPage,
+    path: '/fale-conosco',
     exact: true,
   },
   {
