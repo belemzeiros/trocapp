@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -7,6 +7,10 @@ import Typography from '@material-ui/core/Typography';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import MenuList from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import Fade from '@material-ui/core/Fade';
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   root: {
@@ -66,36 +70,83 @@ const styles = theme => ({
       },
     },
   },
+  menuLink: {
+    '& a': {
+      textDecoration: 'none',
+      color: 'inherit',
+    },
+  },
 });
 
-const Menu = props => {
-  const { classes, title } = props;
-  return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="Open drawer"
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography
-            className={classes.title}
-            variant="title"
-            color="inherit"
-            noWrap
-          >
-            {title}
-          </Typography>
-          <div className={classes.grow} />
-          <div className={classes.search} />
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
-};
+class Menu extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      estaAberto: null,
+    };
+  }
+
+  handleClick = event => {
+    this.setState({ estaAberto: event.currentTarget });
+  };
+
+  handleClose = () => {
+    this.setState({ estaAberto: null });
+  };
+
+  render() {
+    const { estaAberto } = this.state;
+    const { classes, title } = this.props;
+    const aberto = Boolean(estaAberto);
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="Menu"
+              aria-owns={aberto ? 'fade-menu' : undefined}
+              aria-haspopup="true"
+              onClick={this.handleClick}
+            >
+              <MenuIcon />
+            </IconButton>
+            <MenuList
+              id="fade-menu"
+              anchorEl={estaAberto}
+              open={aberto}
+              onClose={this.handleClose}
+              TransitionComponent={Fade}
+            >
+              <MenuItem className={classes.menuLink}>
+                <Link to="/">Início</Link>
+              </MenuItem>
+              <MenuItem className={classes.menuLink}>
+                <Link to="/sobre">Sobre Nós</Link>
+              </MenuItem>
+              <MenuItem className={classes.menuLink}>
+                <Link to="/fale-conosco">Contato</Link>
+              </MenuItem>
+            </MenuList>
+            <Typography
+              className={classes.title}
+              variant="title"
+              color="inherit"
+              noWrap
+            >
+              {title}
+            </Typography>
+            <div className={classes.grow} />
+            <div className={classes.search} />
+          </Toolbar>
+        </AppBar>
+      </div>
+    );
+  }
+}
 
 Menu.propTypes = {
   classes: PropTypes.shape({}).isRequired,

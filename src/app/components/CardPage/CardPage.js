@@ -52,7 +52,7 @@ class CardPageComponent extends React.Component {
             <Grid item xs={12} className={classes.card}>
               <CardMedia
                 className={classes.media}
-                image={`/trocapp/static/image/${image}`}
+                image={`/static/images/product/${image}`}
                 title={title}
               />
               <CardContent>

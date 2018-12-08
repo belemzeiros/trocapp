@@ -26,7 +26,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-1.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 1"
@@ -119,7 +119,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-2.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 2"
@@ -212,7 +212,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-3.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 3"
@@ -305,7 +305,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-4.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 4"
@@ -398,7 +398,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-5.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 5"
@@ -491,7 +491,7 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
               className="MuiCardMedia-root-137 CardPageComponent-media-106"
               style={
                 Object {
-                  "backgroundImage": "url(\\"/trocapp/static/image/imagem-6.jpg\\")",
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
                 }
               }
               title="Item 6"
@@ -508,6 +508,192 @@ exports[`HomePage HomePage with props will mount correctly 1`] = `
                 className="MuiTypography-root-140 MuiTypography-body1-149"
               >
                 Descrição do Item 6
+              </p>
+            </div>
+            <div
+              className="MuiCardActions-root-165"
+            >
+              <button
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-168"
+                >
+                  Trocar
+                </span>
+                <span
+                  className="MuiTouchRipple-root-194"
+                />
+              </button>
+              <button
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-168"
+                >
+                  Eu quero
+                </span>
+                <span
+                  className="MuiTouchRipple-root-194"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-md-3-64 CardPageComponent-card-105 CardPageComponent-root-104"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root-110 MuiPaper-elevation1-113 MuiPaper-rounded-111 MuiCard-root-109 CardPageComponent-card-105"
+      >
+        <div
+          className="MuiGrid-container-5 CardPageComponent-root-104"
+        >
+          <div
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 CardPageComponent-card-105"
+          >
+            <div
+              className="MuiCardMedia-root-137 CardPageComponent-media-106"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
+                }
+              }
+              title="Item 7"
+            />
+            <div
+              className="MuiCardContent-root-139"
+            >
+              <h2
+                className="MuiTypography-root-140 MuiTypography-headline-145 MuiTypography-gutterBottom-157 CardPageComponent-title-108"
+              >
+                Item 7
+              </h2>
+              <p
+                className="MuiTypography-root-140 MuiTypography-body1-149"
+              >
+                Descrição do Item 7
+              </p>
+            </div>
+            <div
+              className="MuiCardActions-root-165"
+            >
+              <button
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 MuiCardActions-action-166"
+                disabled={false}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-168"
+                >
+                  Trocar
+                </span>
+                <span
+                  className="MuiTouchRipple-root-194"
+                />
+              </button>
+              <button
+                className="MuiButtonBase-root-191 MuiButton-root-167 MuiButton-text-169 MuiButton-textPrimary-170 MuiButton-flat-172 MuiButton-flatPrimary-173 MuiButton-sizeSmall-188 cardpage-btn-eu-quero MuiCardActions-action-166"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-168"
+                >
+                  Eu quero
+                </span>
+                <span
+                  className="MuiTouchRipple-root-194"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 MuiGrid-grid-md-3-64 CardPageComponent-card-105 CardPageComponent-root-104"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root-110 MuiPaper-elevation1-113 MuiPaper-rounded-111 MuiCard-root-109 CardPageComponent-card-105"
+      >
+        <div
+          className="MuiGrid-container-5 CardPageComponent-root-104"
+        >
+          <div
+            className="MuiGrid-item-6 MuiGrid-grid-xs-12-45 CardPageComponent-card-105"
+          >
+            <div
+              className="MuiCardMedia-root-137 CardPageComponent-media-106"
+              style={
+                Object {
+                  "backgroundImage": "url(\\"/static/images/product/sofa.jpg\\")",
+                }
+              }
+              title="Item 8"
+            />
+            <div
+              className="MuiCardContent-root-139"
+            >
+              <h2
+                className="MuiTypography-root-140 MuiTypography-headline-145 MuiTypography-gutterBottom-157 CardPageComponent-title-108"
+              >
+                Item 8
+              </h2>
+              <p
+                className="MuiTypography-root-140 MuiTypography-body1-149"
+              >
+                Descrição do Item 8
               </p>
             </div>
             <div

@@ -29,7 +29,13 @@ exports[`App App will mount correctly 1`] = `
       render={[Function]}
     />
     <Route
+      exact={true}
       key="3"
+      path="/fale-conosco"
+      render={[Function]}
+    />
+    <Route
+      key="4"
       render={[Function]}
     />
   </Switch>

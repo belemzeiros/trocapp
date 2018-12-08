@@ -3,7 +3,7 @@
 exports[`WebsiteLayout WebsiteLayout will mount correctly 1`] = `
 <React.Fragment>
   <WithStyles(Menu)
-    title="Home"
+    title="Trocapp"
   />
   <mockConstructor />
 </React.Fragment>

@@ -331,7 +331,7 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                         >
                           <WithStyles(CardMedia)
                             className="CardPageComponent-media-3"
-                            image="/trocapp/static/image/teste.png"
+                            image="/static/images/product/teste.png"
                             title="teste"
                           >
                             <CardMedia
@@ -343,14 +343,14 @@ exports[`<CardPage /> deveria ser igual ao snapshot 1`] = `
                                 }
                               }
                               component="div"
-                              image="/trocapp/static/image/teste.png"
+                              image="/static/images/product/teste.png"
                               title="teste"
                             >
                               <div
                                 className="MuiCardMedia-root-131 CardPageComponent-media-3"
                                 style={
                                   Object {
-                                    "backgroundImage": "url(\\"/trocapp/static/image/teste.png\\")",
+                                    "backgroundImage": "url(\\"/static/images/product/teste.png\\")",
                                   }
                                 }
                                 title="teste"

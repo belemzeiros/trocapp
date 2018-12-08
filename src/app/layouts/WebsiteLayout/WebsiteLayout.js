@@ -6,7 +6,7 @@ import Menu from '../../components/Menu';
 
 const WebsiteLayout = ({ route, ...props }) => (
   <React.Fragment>
-    <Menu title="Home" />
+    <Menu title="Trocapp" />
     <route.page {...props} />
   </React.Fragment>
 );
