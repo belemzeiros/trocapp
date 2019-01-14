@@ -50,6 +50,16 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
+app.get('/produtos', async (req, res) => {
+  try {
+    const response = await axios.get('http://localhost:3001/produtos');
+    res.json(response.data);
+  } catch (error) {
+    console.error('Falha ao conectar na API', error.message, error);
+    res.json([]);
+  }
+});
+
 // Static Files
 app.use(
   serveStatic(
