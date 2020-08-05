@@ -1,0 +1,16 @@
+{
+  "name": "Trocas e Doações",
+  "short_name": "Trocapp",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512 256x256 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#fbe21d",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}

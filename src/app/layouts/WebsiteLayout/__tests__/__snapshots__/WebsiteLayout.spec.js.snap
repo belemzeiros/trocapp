@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebsiteLayout WebsiteLayout will mount correctly 1`] = `
+<React.Fragment>
+  <WithStyles(Menu)
+    title="Trocapp"
+  />
+  <mockConstructor />
+</React.Fragment>
+`;
