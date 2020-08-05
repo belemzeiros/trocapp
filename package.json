@@ -59,7 +59,7 @@
     "immutable": "^3.8.2",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.5.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "mkdirp": "^0.5.1",
     "mockdate": "^2.0.2",
     "moment": "^2.22.2",
