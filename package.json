@@ -62,7 +62,7 @@
     "lodash": "^4.17.19",
     "mkdirp": "^0.5.1",
     "mockdate": "^2.0.2",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "morgan": "^1.9.1",
     "node-fetch": "^2.2.0",
     "normalizr": "^3.2.4",
