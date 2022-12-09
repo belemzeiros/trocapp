@@ -53,7 +53,7 @@
     "downshift": "^2.0.19",
     "ejs": "^2.6.1",
     "elastic-apm-js-base": "^0.9.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-http-proxy": "^1.2.0",
     "express-prom-bundle": "^3.3.0",
     "immutable": "^3.8.2",
